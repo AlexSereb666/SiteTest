@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //console.log(window.screen.width);
     // фикс размеров элементов под 125% масштаб //
-    if (window.screen.width < 1920) {
+    /*if (window.screen.width < 1920) {
         let Sidepanel = document.querySelector('.sidepanel');
         Sidepanel.style.left = 20 + "px";
         Sidepanel.style.top = 150 + "px";
@@ -95,5 +95,5 @@ document.addEventListener('DOMContentLoaded', () => {
         loveOrCoffee.style.marginLeft = 80 + "%";
         loveOrCoffee.style.width = 400 + "px";
         loveOrCoffee.style.height = 220 + "px";
-    }
+    }*/
 });
